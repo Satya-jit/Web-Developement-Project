@@ -1,0 +1,118 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	 	font-family: helvetica, arial, sans-serif;
+	 	background-color: #007fc0;
+	 }
+
+     .bordered {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+     }
+
+	 header, footer {
+	 	background-color: #7Ecbf3; 
+	 	border: 1px solid black;
+	 	font-family: "Times new roman", helvetica,    arial, sans-serif;
+	 }
+
+	
+.container{
+	width: 990px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+
+}
+
+	 footer {
+	 	padding: 10px
+	 	border-radius: 10px;
+	 }
+
+header nav {
+	float: right;
+
+}
+header nav li{
+	display: inline;
+	font-size: 12px;
+	padding-right:10px; 
+}
+
+a{
+	color: #007FC0;
+}
+
+.boxed{
+	box-shadow: 0 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+}
+
+#main{
+	min-height: 800px;
+ border-radius: 5px;
+ color: #202020;
+ margin: 10px 0px 10px 0px;
+ padding: 5px;
+}
+
+
+#results {
+	padding: 2px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+.result{
+	margin: 5px;
+	border: 1px solid #999;
+}
+.result .title{
+	font-weight: bold;
+}
+#errorMsg{
+	font-family: "Times New roman",bold,;
+	color: red;
+}
+
+#logoutSection{
+  display: none;
+}
+
+.login-form {
+	display: inline-block;
+	width: 300px;
+	padding: 2px;
+	
+}
+
+.login-form label {
+
+	width: 120px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.login-form input[type=text],
+.login-form input[type=password]
+{
+	width: 150px;
+
+}
+
+.login-form input[type=submit],
+.login-form input[type=reset],
+button {
+	background-color: #007fc0;
+	color: #fff;
+	border-radius: 15px;
+	padding: 3px;
+	margin-top: 5px;
+	width: 75px;
+}
+.login-form input[type=reset]{
+	background-color: gray;
+}
